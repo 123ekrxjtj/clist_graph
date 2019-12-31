@@ -18,6 +18,9 @@
     <ClCompile Include="arraystack.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="example04_01.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arraystack.h">

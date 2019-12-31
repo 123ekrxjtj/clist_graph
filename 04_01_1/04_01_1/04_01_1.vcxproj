@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="arraystack.c" />
+    <ClCompile Include="example04_01.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="arraystack.h" />

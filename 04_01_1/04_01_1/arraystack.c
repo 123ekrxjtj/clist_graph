@@ -79,3 +79,32 @@ ArrayStackNode* peekAS(ArrayStack* pStack) {
 	}
 	return pReturn;
 }
+
+void deleteArrayStack(ArrayStack* pStack) {
+	if (pStack != NULL) {
+		if (pStack->pElement != NULL) {
+			free(pStack->pElement);
+		}
+		free(pStack);
+	}
+}
+
+int isArrayStackFull(ArrayStack* pStack) {
+	int ret = FALSE;
+	if (pStack != NULL) {
+		if (pStack->currentElementCount == pStack->maxElementCount) {
+			ret = TRUE;
+		}
+	}
+	return ret;
+}
+
+int isArrayStackEmpty(ArrayStack* pStack) {
+	int ret = FALSE;
+	if (pStack != NULL) {
+		if (pStack->currentElementCount == 0) {
+			ret = TRUE;
+		}
+	}
+	return ret;
+}

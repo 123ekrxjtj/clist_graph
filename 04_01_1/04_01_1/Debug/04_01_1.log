@@ -1,3 +1,6 @@
 ﻿  arraystack.c
-C:\Users\서준혁\Desktop\자료구조\04_01_1\04_01_1\arraystack.c(38,6): warning C4101:  'a' :참조되지 않은 지역 변수입니다.
-  04_01_1.vcxproj -> C:\Users\서준혁\Desktop\자료구조\04_01_1\Debug\04_01_1.exe
+C:\Users\서준혁\Desktop\자료구조\04_01_1\04_01_1\arraystack.c(55,13): error C2371:  'popAS': 재정의. 기본 형식이 다릅니다.
+C:\Users\서준혁\Desktop\자료구조\04_01_1\04_01_1\arraystack.h(18): message :  'popAS' 선언을 참조하십시오.
+  example04_01.c
+  코드를 생성하고 있습니다...
+C:\Users\서준혁\Desktop\자료구조\04_01_1\04_01_1\arraystack.c(70,16): warning C4133:  'return': 'ArrayStackNode *'과(와) 'ArrayStack *' 사이의 형식이 호환되지 않습니다.
